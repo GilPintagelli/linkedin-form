@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Sign Up | LinkedIn</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.linkedin.com"><img id="img-logo" src="LinkedIn logo form.png" alt="linkedin img"></a>
+    </header>
+    <div id="container">
+        <div id="main-title">
+            <p>Join to view full profiles for free</p>
+        </div>
+        <form action="file.php">
+            <div class="form-group">
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First name">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email or phone number</label>
+                <input type="email" name="email" id="email" placeholder="Email or phone number">
+            </div>
+            <div class="form-group">
+                <label for="password">Password (6 or more characters)</label>
+                <input type="password" name="password" id="password" placeholder="Password (6 or more characters)">
+            </div>
+            <p>By clicking Agree & Join, you agree to the LinkedIn
+               <a href="https://www.linkedin.com/legal/user-agreement?trk=public_authwall_profile-scraping_join-form-user-agreement" target="_blank">User Agreement</a> , 
+               <a href="https://www.linkedin.com/legal/privacy-policy?trk=public_authwall_profile-scraping_join-form-privacy-policy" target="_blank">Privacy Policy</a> , 
+               and <a href="https://www.linkedin.com/legal/cookie-policy?trk=public_authwall_profile-scraping_join-form-cookie-policy" target="_blank">Cookie Policy</a>.</p>
+            <div id="button">
+                <input type="submit" value="Agree & Join">
+            </div>
+        </form>
+        <footer><p>Already have an account? <a href="">Sign in</a></p></footer>
+    </div>
+</body>
+</html>
